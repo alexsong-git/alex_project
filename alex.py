@@ -1,3 +1,4 @@
+import time
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -39,29 +40,6 @@ class Auto_Test(unittest.TestCase):
             except Exception as e:
                 logger.info(i[0] + " " + "FAIL —— "+"data : "+f"{i}")
                 #logger.info(e)
-                continue
+                time.sleep(10000)
+                break
 
-
-    def tearDown(self):
-        if data_twice !=[]:
-            for i in data_twice:
-                print(i)
-                try:
-                    self.driver.get(url_resolve + i[0])
-                    self.assertIn("Resolution Center", self.driver.title)
-                    self.ele_email = self.driver.find_element(By.ID, "login-email-input")
-                    self.ele_email.send_keys(f'{i[1]}')
-                    self.ele_orderNumber = self.driver.find_element(By.ID, "login-order-id-input")
-                    self.ele_orderNumber.send_keys(f'{i[2]}')
-                    self.ele_button = self.driver.find_element(By.ID, "login_next")
-                    self.ele_button.click()
-                    # time.sleep(30)
-                    self.element = self.driver.find_element(By.ID, "ready_to_submit").text
-                    self.assertIn(self.element, "I'm ready to submit")
-                    logger.info("twice : "+i[0] + " " + "PASS")
-                except Exception as e:
-                    logger.info("twice : "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
-                    # logger.info(e)
-                    continue
-
-        self.driver.quit()

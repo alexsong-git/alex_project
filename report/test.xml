@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="自动化测试" errors="0" failures="0" tests="1" skipped="0" time="238.738234" >
+    <testsuite name="login_test_resolve.Auto_Test" id="0" errors="0" skipped="0" tests="1" failures="0" time="238.54483890533447">
+        <testcase name="testlogin" classname="login_test_resolve.Auto_Test.testlogin" time="238.54483890533447">
+        </testcase>
+    </testsuite>
+</testsuites>

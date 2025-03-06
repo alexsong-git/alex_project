@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05948772-2532-4acf-b430-89649440094c" name="更改" comment="123">
-      <change afterPath="$PROJECT_DIR$/login_test_resolve.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alexsong-2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/斐波那契额数列.py" beforeDir="false" afterPath="$PROJECT_DIR$/斐波那契额数列.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/alex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_test_resolution_portal.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolution_portal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_test_resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login_test_resolve_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve_channel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_log.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +61,14 @@
     "Python 测试.Python 测试 (alex.py 内).executor": "Run",
     "Python 测试.Python 测试 (alexsong-2.py 内).executor": "Run",
     "Python 测试.Python 测试 (login_test.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolution.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolution_portal.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolve.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolve_channel.py 内).executor": "Run",
     "Python.1.executor": "Run",
     "Python.alexsong-2.executor": "Run",
+    "Python.log_tool.executor": "Run",
+    "Python.run.executor": "Run",
     "Python.test.executor": "Run",
     "Python.tool.executor": "Run",
     "Python.九九乘法表.executor": "Run",
@@ -107,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736860392209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="123">
+      <option name="closed" value="true" />
+      <created>1741230230970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741230230970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
