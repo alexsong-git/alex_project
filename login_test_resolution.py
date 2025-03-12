@@ -4,11 +4,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from data import chromedriver_path,url_resolve,url_resolution,url_resolution_portal
 from tool import read_txt
-from log_tool import logger
+from log_tool import log_tool
 
+path='/Users/alex/PycharmProjects/alex_project/test_log_resolution.log'
+name='test_log_resolution'
+log=log_tool(path,name)
 data = read_txt()
 data_twice=[]
-
 class Auto_Test(unittest.TestCase):
 
 
@@ -35,10 +37,11 @@ class Auto_Test(unittest.TestCase):
                 self.ele_button.click()
                 self.element = self.driver.find_element(By.ID, "ready_to_submit").text
                 self.assertIn(self.element,"I'm ready to submit")
-                logger.info(i[0] + " " + "PASS")
+                #log.info(i[0] + " " + "PASS")
             except Exception as e:
-                logger.info(i[0] + " " + "FAIL —— "+"data : "+f"{i}")
+                log.info(name+" "+i[0] + " " + "FAIL —— "+"data : "+f"{i}")
                 #logger.info(e)
+                data_twice.append(i)
                 continue
 
 
@@ -55,12 +58,11 @@ class Auto_Test(unittest.TestCase):
                     self.ele_orderNumber.send_keys(f'{i[2]}')
                     self.ele_button = self.driver.find_element(By.ID, "login_next")
                     self.ele_button.click()
-                    # time.sleep(30)
                     self.element = self.driver.find_element(By.ID, "ready_to_submit").text
                     self.assertIn(self.element, "I'm ready to submit")
-                    logger.info("twice : "+i[0] + " " + "PASS")
+                    log.info("twice : "+name+" "+i[0] + " " + "PASS")
                 except Exception as e:
-                    logger.info("twice : "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
+                    log.error("twice : "+name+" "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
                     # logger.info(e)
                     continue
 

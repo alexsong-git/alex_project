@@ -21,7 +21,6 @@ ele_orderNumber = driver.find_element(By.ID, "orderNumber")
 ele_orderNumber.send_keys(f'{orderNumber}')
 ele_button=driver.find_element(By.XPATH, "//button/span[text()='Next']")
 ele_button.click()
-time.sleep(5)
 text = driver.find_element(By.CSS_SELECTOR, "div.font-bold.text-black.text-3xl").text
 assert text==result
 driver.quit()

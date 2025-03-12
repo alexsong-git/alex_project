@@ -4,8 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from data import chromedriver_path,url_resolve,url_resolution,url_resolution_portal
 from tool import read_txt
-from log_tool import logger
+from log_tool import log_tool
 
+path='/Users/alex/PycharmProjects/alex_project/test_log_resolution_portal.log'
+name='test_log_resolution_portal'
+log=log_tool(path,name)
 data = read_txt()
 data_twice=[]
 
@@ -18,7 +21,7 @@ class Auto_Test(unittest.TestCase):
         self.service=Service(executable_path=chromedriver_path)
         # 初始化 WebDriver
         self.driver=webdriver.Chrome(service=self.service)
-        self.driver.implicitly_wait(10)  # 设置隐式等待时间为5秒
+        self.driver.implicitly_wait(3)  # 设置隐式等待时间为5秒
 
     def testlogin(self):
 
@@ -36,10 +39,11 @@ class Auto_Test(unittest.TestCase):
                 #time.sleep(30)
                 self.element = self.driver.find_element(By.ID, "ready_to_submit").text
                 self.assertIn(self.element,"I'm ready to submit")
-                logger.info(i[0] + " " + "PASS")
+                #log.info(i[0] + " " + "PASS")
             except Exception as e:
-                logger.info(i[0] + " " + "FAIL —— "+"data : "+f"{i}")
+                log.info(name+" "+i[0] + " " + "FAIL —— "+"data : "+f"{i}")
                 #logger.info(e)
+                data_twice.append(i)
                 continue
 
 
@@ -56,12 +60,11 @@ class Auto_Test(unittest.TestCase):
                     self.ele_orderNumber.send_keys(f'{i[2]}')
                     self.ele_button = self.driver.find_element(By.XPATH, "//button/span[text()='Next']")
                     self.ele_button.click()
-                    # time.sleep(30)
                     self.element = self.driver.find_element(By.ID, "ready_to_submit").text
                     self.assertIn(self.element, "I'm ready to submit")
-                    logger.info("twice : "+i[0] + " " + "PASS")
+                    log.info("twice : "+name+" "+i[0] + " " + "PASS")
                 except Exception as e:
-                    logger.info("twice : "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
+                    log.error("twice : "+name+" "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
                     # logger.info(e)
                     continue
 

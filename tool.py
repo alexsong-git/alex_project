@@ -14,4 +14,6 @@ def read_txt():
     return all_results
 
 data = read_txt()
-print(data)
+
+if __name__ == '__main__':
+    print(data)

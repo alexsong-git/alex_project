@@ -4,13 +4,17 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from data import chromedriver_path,url_resolve,url_resolution,url_resolution_portal
 from tool import read_txt
-from log_tool import logger
+from log_tool import log_tool
+import time
 
+path='/Users/alex/PycharmProjects/alex_project/test_log_resolve_channel.log'
+name='test_log_resolve_channel'
+log=log_tool(path,name)
 data = read_txt()
 data_twice=[]
+gray=input("Is gray? 1=Yes 0=No : ")
 
 class Auto_Test(unittest.TestCase):
-
 
     def setUp(self):
 
@@ -23,7 +27,6 @@ class Auto_Test(unittest.TestCase):
     def testlogin(self):
 
         for i in data:
-            print(i)
             try:
                 self.driver.get(url_resolve+i[0])
                 self.assertIn("Resolution Center", self.driver.title)
@@ -33,12 +36,19 @@ class Auto_Test(unittest.TestCase):
                 self.ele_orderNumber.send_keys(f'{i[2]}')
                 self.ele_button = self.driver.find_element(By.ID, "login_next")
                 self.ele_button.click()
-                #time.sleep(30)
-                self.element = self.driver.find_element(By.ID, "ready_to_submit").text
-                self.assertIn(self.element,"I'm ready to submit")
-                logger.info(i[0] + " " + "PASS")
+                time.sleep(3)
+                if gray == "0":
+                    self.element = self.driver.find_element(By.ID, "ready_to_submit").text
+                    self.assertIn(self.element,"I'm ready to submit")
+                elif gray == "1":
+                    self.element = self.driver.find_element(By.XPATH, "//div[text()='Seel protection overview']").text
+                    self.assertIn(self.element, "Seel protection overview")
+                else:
+                    print("illegal input")
+                    break
+                #log.info(i[0] + " " + "PASS")
             except Exception as e:
-                logger.info(i[0] + " " + "FAIL —— "+"data : "+f"{i}")
+                log.info(name+" "+i[0] + " " + "FAIL —— "+"data : "+f"{i}")
                 #logger.info(e)
                 data_twice.append(i)
                 continue
@@ -47,7 +57,6 @@ class Auto_Test(unittest.TestCase):
     def tearDown(self):
         if data_twice !=[]:
             for i in data_twice:
-                print(i)
                 try:
                     self.driver.get(url_resolve + i[0])
                     self.assertIn("Resolution Center", self.driver.title)
@@ -57,12 +66,19 @@ class Auto_Test(unittest.TestCase):
                     self.ele_orderNumber.send_keys(f'{i[2]}')
                     self.ele_button = self.driver.find_element(By.ID, "login_next")
                     self.ele_button.click()
-                    # time.sleep(30)
-                    self.element = self.driver.find_element(By.ID, "ready_to_submit").text
-                    self.assertIn(self.element, "I'm ready to submit")
-                    logger.info("twice : "+i[0] + " " + "PASS")
+                    time.sleep(3)
+                    if gray == "0":
+                        self.element = self.driver.find_element(By.ID, "ready_to_submit").text
+                        self.assertIn(self.element, "I'm ready to submit")
+                    elif gray == "1":
+                        self.element = self.driver.find_element(By.XPATH, "//div[text()='Seel protection overview']").text
+                        self.assertIn(self.element, "Seel protection overview")
+                    else:
+                        print("illegal input")
+                        break
+                    log.info("twice : "+name+" "+i[0] + " " + "PASS")
                 except Exception as e:
-                    logger.info("twice : "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
+                    log.error("twice : "+name+" "+i[0] + " " + "FAIL —— " + "data : " + f"{i}")
                     # logger.info(e)
                     continue
 

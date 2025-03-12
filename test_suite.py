@@ -1,5 +1,5 @@
 import unittest
-import login_test_resolve,login_test_resolve_channel,login_test_resolution_portal
+import login_test_resolve,login_test_resolve_channel,login_test_resolution_portal,login_test_resolution
 
 
 def return_suite():
@@ -14,7 +14,8 @@ def return_suite():
 
     # 通过加载器将测试用例加载到测试套件中
     suite.addTests(loader.loadTestsFromTestCase(login_test_resolve.Auto_Test))
-    #suite.addTests(loader.loadTestsFromTestCase(login_test_resolve_channel.Auto_Test))
+    suite.addTests(loader.loadTestsFromTestCase(login_test_resolve_channel.Auto_Test))
+    #suite.addTests(loader.loadTestsFromTestCase(login_test_resolution.Auto_Test))
     #suite.addTests(loader.loadTestsFromTestCase(login_test_resolution_portal.Auto_Test))
 
     # 返回组装好的测试套件

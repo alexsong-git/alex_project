@@ -15,5 +15,5 @@ if __name__ == "__main__":
         title="自动化测试",
         description="自动化测试项目测试报告。",
         report_file_name="test",
-        thread_count=3
+        thread_count=4
     ).run(suite)
