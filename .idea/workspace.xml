@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="05948772-2532-4acf-b430-89649440094c" name="更改" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log_resolution.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_log_resolution.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log_resolution_portal.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log_resolve.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log_resolve_channel.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +20,12 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="alexsong" />
+    <option name="BRANCH" value="alexsong-2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="alexsong-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,29 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python 测试.Python 测试 (alex.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (alexsong-2.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (login_test.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (login_test_resolution.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (login_test_resolution_portal.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (login_test_resolve.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (login_test_resolve_channel.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.alexsong-2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.log_tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.九九乘法表.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;alexsong-2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/alex/PycharmProjects/alex_project&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python 控制台&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.Python 测试 (alex.py 内).executor": "Run",
+    "Python 测试.Python 测试 (alexsong-2.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolution.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolution_portal.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolve.py 内).executor": "Run",
+    "Python 测试.Python 测试 (login_test_resolve_channel.py 内).executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.alexsong-2.executor": "Run",
+    "Python.log_tool.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.tool.executor": "Run",
+    "Python.九九乘法表.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/alex/PycharmProjects/alex_project",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python 控制台"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="alex_project" is-module-sdk="true">
