@@ -1,0 +1,4 @@
+2025-03-17 18:36:14,164 - selenium_test - INFO - 
+2025-03-17 18:36:14,164 - selenium_test - INFO - start
+2025-03-17 18:37:17,539 - selenium_test - INFO - test_log_resolution shoplazza FAIL —— data : ['shoplazza', 'customer@email.us', '00003195']
+2025-03-17 18:37:17,545 - selenium_test - ERROR - twice : test_log_resolution shoplazza FAIL —— data : ['shoplazza', 'customer@email.us', '00003195']

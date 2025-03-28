@@ -6,20 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="05948772-2532-4acf-b430-89649440094c" name="更改" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_tool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test_resolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolution.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test_resolution_portal.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolution_portal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test_resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login_test_resolve_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve_channel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_log.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_suite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_log_resolution.log" beforeDir="false" afterPath="$PROJECT_DIR$/test_log_resolution.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_log_resolution_portal.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_log_resolve.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_log_resolve_channel.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="alexsong-2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

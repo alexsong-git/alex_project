@@ -1,0 +1,63 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"05948772-2532-4acf-b430-89649440094c\" name=\"更改\" comment=\"123\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/log_tool.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/log_tool.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/login_test_resolution.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login_test_resolution.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/login_test_resolution_portal.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login_test_resolution_portal.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/login_test_resolve.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login_test_resolve.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/login_test_resolve_channel.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/login_test_resolve_channel.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/report/test.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/report/test.html\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/report/test.log\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/report/test.log\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/report/test.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/report/test.md\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/report/test.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/report/test.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/run.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/run.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/test.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/test.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/test_log.log\" beforeDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/test_suite.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/test_suite.py\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/tool.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tool.py\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Python Script\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Merge.Settings\">\n    <option name=\"BRANCH\" value=\"alexsong\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"alexsong-2\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;alexsong-git&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\">{\n  &quot;selectedUrlAndAccountId&quot;: {\n    &quot;url&quot;: &quot;https://github.com/alexsong-git/alex_project.git&quot;,\n    &quot;accountId&quot;: &quot;dad6700f-ce8a-4dc0-8c7f-d721934c34cc&quot;\n  }\n}</component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 1\n}</component>\n  <component name=\"ProjectId\" id=\"2rcIkS7JyB9egCyGzc75JVM7CuN\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;Python 测试.Python 测试 (alex.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (alexsong-2.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (login_test.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (login_test_resolution.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (login_test_resolution_portal.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (login_test_resolve.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python 测试.Python 测试 (login_test_resolve_channel.py 内).executor&quot;: &quot;Run&quot;,\n    &quot;Python.1.executor&quot;: &quot;Run&quot;,\n    &quot;Python.alexsong-2.executor&quot;: &quot;Run&quot;,\n    &quot;Python.log_tool.executor&quot;: &quot;Run&quot;,\n    &quot;Python.run.executor&quot;: &quot;Run&quot;,\n    &quot;Python.test.executor&quot;: &quot;Run&quot;,\n    &quot;Python.tool.executor&quot;: &quot;Run&quot;,\n    &quot;Python.九九乘法表.executor&quot;: &quot;Run&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\n    &quot;git-widget-placeholder&quot;: &quot;alexsong-2&quot;,\n    &quot;last_opened_file_path&quot;: &quot;/Users/alex/PycharmProjects/alex_project&quot;,\n    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python 控制台&quot;\n  }\n}</component>\n  <component name=\"PyConsoleOptionsProvider\">\n    <option name=\"myPythonConsoleState\">\n      <console-settings module-name=\"alex_project\" is-module-sdk=\"true\">\n        <option name=\"myUseModuleSdk\" value=\"true\" />\n        <option name=\"myModuleName\" value=\"alex_project\" />\n      </console-settings>\n    </option>\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"SharedIndexes\">\n    <attachedChunks>\n      <set>\n        <option value=\"bundled-python-sdk-1b1018131e27-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.180\" />\n      </set>\n    </attachedChunks>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\n      <changelist id=\"05948772-2532-4acf-b430-89649440094c\" name=\"更改\" comment=\"123\" />\n      <created>1736852078466</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1736852078466</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"123\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1736860392209</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1736860392209</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"123\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1741230230970</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1741230230970</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"123\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1741245899764</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1741245899764</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"123\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"123\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision f3b31b55f647a4963e36fcc273c23b5ac5aa7e4c)
++++ b/.idea/workspace.xml	(date 1741870340509)
+@@ -6,19 +6,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="05948772-2532-4acf-b430-89649440094c" name="更改" comment="123">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/log_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_tool.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/login_test_resolution.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolution.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/login_test_resolution_portal.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolution_portal.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/login_test_resolve.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/login_test_resolve_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/login_test_resolve_channel.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/report/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/report/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.log" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/report/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/report/test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/report/test.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test_log.log" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_suite.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/tool.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -140,7 +127,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1741245899764</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="123">
++      <option name="closed" value="true" />
++      <created>1741760203787</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1741760203787</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+Index: tool.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import openpyxl\n\ndef read_txt():\n    all_results = []\n    file_path = \"/Users/alex/登陆数据.xlsx\"  # 替换为你的文件路径\n    workbook = openpyxl.load_workbook(file_path)\n    sheet = workbook.active  # 获取活动工作表\n    for row in sheet.iter_rows(min_row=2, values_only=True):\n        # 将每一行的数据存储在一个小列表中\n        result = list(row)\n        all_results.append(result)  # 将小列表添加到大列表中\n\n    workbook.close()\n    return all_results\n\ndata = read_txt()\n\nif __name__ == '__main__':\n    print(data)
+===================================================================
+diff --git a/tool.py b/tool.py
+--- a/tool.py	(revision f3b31b55f647a4963e36fcc273c23b5ac5aa7e4c)
++++ b/tool.py	(date 1741870340049)
+@@ -14,6 +14,5 @@
+     return all_results
+ 
+ data = read_txt()
+-
+ if __name__ == '__main__':
+     print(data)
+\ No newline at end of file
