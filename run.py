@@ -1,7 +1,7 @@
 """统一入口"""
 import unittest
 import HTMLReport
-import test_suite
+from Test_Suite import test_suite
 
 # 创建一个总的测试套件
 suite = unittest.TestSuite()

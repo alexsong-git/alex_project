@@ -1,11 +1,20 @@
-import unittest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
-from data.rc_data  import chromedriver_path, url_resolution
-from common.data_tool  import read_data
-from common.log_tool import log_tool
-import time
+
+
+
+def resolution_login(driver, email, order):
+
+    ele_email = driver.find_element(By.ID, "email-input")
+    ele_email.send_keys(f'{email}')
+    ele_orderNumber = driver.find_element(By.ID, "login-order-id-input")
+    ele_orderNumber.send_keys(f'{order}')
+    ele_button = driver.find_element(By.ID, "login_next")
+    ele_button.click()
+    element = driver.find_element(By.ID, "ready_to_submit").text
+
+    return element
+
+
 
 service=Service(executable_path=chromedriver_path)
 driver=webdriver.Chrome(service=service)
@@ -24,5 +33,5 @@ password.send_keys('12345678ABbc!!')
 button_2=driver.find_element(By.ID,'submit')
 button_2.click()
 print(driver.title)
-time.sleep(5)
+time.sleep(50)
 driver.quit()
